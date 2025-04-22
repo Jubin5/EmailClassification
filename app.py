@@ -4,8 +4,8 @@ import re
 import string
 
 # Load the trained model and TF-IDF vectorizer
-model = joblib.load("c:\\Users\\jubin\\Downloads\\spam_classifier.pkl")
-vectorizer = joblib.load("C:\\Users\\jubin\\Downloads\\tfidf_vectorizer.pkl")
+model = joblib.load("spam_classifier.pkl")
+vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
 # Function to clean user input text (same as in training)
 def clean_text(text):
